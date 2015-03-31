@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/stsu"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_x="10dp"
+        android:layout_y="20dp"
+        android:text="Scroll Up" 
+        android:background="#777"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/stsd"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_x="160dp"
+        android:layout_y="20dp"
+        android:text="Scroll Down" 
+         android:background="#777"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/stl"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_x="10dp"
+        android:layout_y="390dp"
+        android:text="Left" 
+         android:background="#777"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/str"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_x="160dp"
+        android:layout_y="390dp"
+        android:text="Right" 
+         android:background="#777"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/lnl"
+        android:layout_width="285dp"
+        android:layout_height="233dp"
+        android:layout_x="14dp"
+        android:layout_y="108dp"
+        android:background="#ccc"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</AbsoluteLayout>

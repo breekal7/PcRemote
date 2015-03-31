@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgk" >
+
+    <TextView
+        android:id="@+id/ktv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_x="72dp"
+        android:layout_y="35dp"
+        android:text="The KMP Player"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#222" />
+
+    <Button
+        android:id="@+id/kst"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="126dp"
+        android:layout_y="111dp"
+        android:background="@drawable/stopk" />
+
+    <Button
+        android:id="@+id/knx"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="29dp"
+        android:layout_x="208dp"
+        android:layout_y="109dp"
+        android:background="@drawable/nextk" />
+
+    <Button
+        android:id="@+id/kprv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="29dp"
+        android:layout_x="38dp"
+        android:layout_y="111dp"
+        android:background="@drawable/prevk" />
+
+    <Button
+        android:id="@+id/kbk"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="29dp"
+        android:layout_x="36dp"
+        android:layout_y="209dp"
+        android:background="@drawable/backwardk" />
+
+    <Button
+        android:id="@+id/kpl"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="39dp"
+        android:layout_x="100dp"
+        android:layout_y="206dp"
+        android:background="@drawable/playk" />
+
+    <Button
+        android:id="@+id/kps"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_x="161dp"
+        android:layout_y="206dp"
+        android:background="@drawable/pausek" />
+
+    <Button
+        android:id="@+id/kfd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="223dp"
+        android:layout_y="208dp"
+        android:background="@drawable/forwardk" />
+        
+        />
+
+</AbsoluteLayout>
